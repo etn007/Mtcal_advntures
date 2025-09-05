@@ -1,0 +1,55 @@
+body{
+  font-family: Sans serif;
+
+}
+.container {
+  display: flex;
+  justify-content:  flex-start;
+  gap : 20px; 
+}
+.documents {
+  width : 70%;
+  border : 2px solid #ccc;
+  padding : 30px;
+    border-radius : 10px;
+    text-align : left;
+      background-color:#E5F3FD ;
+}
+
+.profile{
+  background-color:#E5F3FD ;
+  flex  : 1;
+  width : 30%;
+  margin-left : 0;
+  margin-right : auto;
+    border : 2px solid #ccc;
+    padding : 20px;
+    border-radius : 10px;
+    text-align : center;
+}
+.profile-photo{
+  width : 200px;
+  height : 200px;
+  margin : 0 auto;
+  border-radius : 35%;
+  object-fit : cover;
+}
+
+.documents ul {
+  list-style: none;
+}
+
+.documents li {
+  margin-bottom: 10px;
+}
+
+.documents a {
+  color: #0077cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.documents a:hover {
+  text-decoration: underline;
+}
+
